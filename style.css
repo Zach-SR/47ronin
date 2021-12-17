@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+}
+
+body {
+    background-color: #77c8c8;
+}
+
+h1 {
+    color:rgb(119, 72, 146);
+    font-size: 50px;
+    text-align: center;
+}
+
+.content {
+    font-size:24px;
+    text-align:center;
+    border: solid 6px rgb(170, 43, 149);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background-color:white;
+}
+
+h2 {
+    text-align: center;
+}
+
+img.resize {
+    width:200px;
+    height:40px;
+  }
+
+h4 {
+    color:black;
+    font-size: 20px;
+}
+
+h3{
+    color:rgb(133, 18, 127);
+    font-size: 30px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+/* we can change whole paragraphs by starting with P instead */
+/* if we start with an *, it is a wild card effect that changes everything within a page */
+
+img{
+    width:20%;
+}
+
+.container img {
+    width:700px;
+    height:400px;
+}
+
+content{
+    font-size:36px;
+    text-align: center;
+    background-color:lightgreen
+}
+
+
+
+/* div id="menu" defines the alteration of the menu bar */
+#menu {
+    display:flex;
+    height: 40px;
+    background-color: rgb(54, 43, 43);
+    justify-content: space-evenly;
+}
+
+#menu a{
+    color:white;
+    font-size:28px;
+}
+
+#menu a:hover{
+    color:tomato;
+}
+
+.content {
+    font-size:18px;
+    text-align:center;
+    border: solid 8px rgb(170, 43, 149);
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    box-sizing: content-box;
+    width:70%;
+}
